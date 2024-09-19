@@ -16,13 +16,13 @@
       <h2 class="p-4 text-center display-2">Skills</h2>
       <SkillsSection />
     </section>
-    <section class="row text-center display-2" id="projects">
-      <h2 class="p-4">Projects</h2>
+    <section class="row text-center " id="projects">
+      <h2 class="p-4 display-2">Projects</h2>
       <ProjectsSection />
     </section>
     <section class="row max-height" id="contact">
-      <h2 class="p-4">Contact</h2>
-      <!-- <ContactSection /> -->
+      <h2 class="p-4 display-2">Contact</h2>
+      <ContactSection />
     </section>
   </div>
 </template>
@@ -33,7 +33,7 @@ import AboutSection from "@/components/AboutSection.vue";
 import ResumeSection from "@/components/ResumeSection.vue";
 import SkillsSection from "@/components/SkillsSection.vue";
 import ProjectsSection from "@/components/ProjectsSection.vue";
-// import ContactSection from "@/components/ContactSection.vue";
+import ContactSection from "@/components/ContactSection.vue";
 
 export default {
   name: "HomeView",
@@ -43,7 +43,7 @@ export default {
     ResumeSection,
     SkillsSection,
     ProjectsSection,
-    // ContactSection,
+    ContactSection,
   },
 };
 </script>

@@ -19,9 +19,7 @@
         <div class="mobile-divider"></div>
       </div>
     </div>
-    <div v-else class="d-flex justify-content-center">
-      <div class="spinner-border" role="status"></div>
-    </div>
+    <SpinnerComp v-else />
     <h4 class="text-center display-4 p-4">Experiences</h4>
 
     <div class="row gap-3" v-if="experiences?.length">

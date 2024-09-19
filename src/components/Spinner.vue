@@ -60,8 +60,8 @@ export default {
 
 <style scoped>
 .pl {
-  width: 6em;
-  height: 6em;
+  width: 5rem;
+  height: 5rem;
   margin: auto;
   display: block;
 }

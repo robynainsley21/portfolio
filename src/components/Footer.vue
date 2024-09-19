@@ -2,7 +2,7 @@
   <footer class="text-center fixed-bottom">
     <div class="row">
       <p class="lead mt-4">
-        Robyn's Portfolio &copy; <span>{{ cYear }}</span>
+        Robyn Carnow &copy; <span>{{ cYear }}</span>
       </p>
     </div>
   </footer>
@@ -19,4 +19,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+footer{
+  background-color: #151823;
+  font-family: "Share Tech Mono", monospace ;
+}
+</style>
