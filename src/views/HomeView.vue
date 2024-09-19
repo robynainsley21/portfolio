@@ -10,7 +10,6 @@
       </div>
     </section>
     <section class="row" id="resume">
-      <h2 class="p-4 text-center display-2">Resume</h2>
       <ResumeSection />
     </section>
     <section class="row" id="skills">
@@ -23,7 +22,7 @@
     </section>
     <section class="row max-height" id="contact">
       <h2 class="p-4">Contact</h2>
-      <ContactSection />
+      <!-- <ContactSection /> -->
     </section>
   </div>
 </template>
@@ -34,7 +33,7 @@ import AboutSection from "@/components/AboutSection.vue";
 import ResumeSection from "@/components/ResumeSection.vue";
 import SkillsSection from "@/components/SkillsSection.vue";
 import ProjectsSection from "@/components/ProjectsSection.vue";
-import ContactSection from "@/components/ContactSection.vue";
+// import ContactSection from "@/components/ContactSection.vue";
 
 export default {
   name: "HomeView",
@@ -44,7 +43,7 @@ export default {
     ResumeSection,
     SkillsSection,
     ProjectsSection,
-    ContactSection,
+    // ContactSection,
   },
 };
 </script>

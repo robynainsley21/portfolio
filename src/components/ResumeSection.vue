@@ -1,6 +1,7 @@
 <template>
   <div class="row" id="resume">
-    <h4 class="display-2 text-center p-4">Education</h4>
+    <h2 class="p-4 text-center display-2">Resume</h2>
+    <h4 class="display-5 text-center p-4">Education</h4>
 
     <div class="row gap-4" v-if="education?.length">
       <div class="edu-box" v-for="edu in education" :key="edu.id">
@@ -21,7 +22,7 @@
     <div v-else class="d-flex justify-content-center">
       <div class="spinner-border" role="status"></div>
     </div>
-    <h4 class="text-center p-4">Experiences</h4>
+    <h4 class="text-center display-4 p-4">Experiences</h4>
 
     <div class="row gap-3" v-if="experiences?.length">
       <div class="edu-box" v-for="item in experiences" :key="item.id">

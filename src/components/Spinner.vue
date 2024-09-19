@@ -1,7 +1,7 @@
 <template>
-  <div>
-    /* From Uiverse.io by Juanes200122 */
-    <svg viewBox="0 0 240 240" height="240" width="240" class="pl">
+  <div class="p-auto">
+     <!-- From Uiverse.io by Juanes200122  -->
+    <svg viewBox="0 0 240 240" height="240" width="240" class="pl ">
       <circle
         stroke-linecap="round"
         stroke-dashoffset="-330"
@@ -62,6 +62,8 @@ export default {
 .pl {
   width: 6em;
   height: 6em;
+  margin: auto;
+  display: block;
 }
 
 .pl__ring {
@@ -69,7 +71,7 @@ export default {
 }
 
 .pl__ring--a {
-  stroke: #000000;
+  stroke: #5a639c;
 }
 
 .pl__ring--b {
@@ -84,7 +86,7 @@ export default {
 
 .pl__ring--d {
   animation-name: ringD;
-  stroke: #000000;
+  stroke: #5a639c;
 }
 
 /* Animations */
