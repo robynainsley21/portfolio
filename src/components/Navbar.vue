@@ -59,11 +59,6 @@
               <a class="nav-link" aria-current="page" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#testimonials"
-                >Testimonials</a
-              >
-            </li>
-            <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#projects"
                 >Projects</a
               >
